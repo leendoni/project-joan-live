@@ -1,0 +1,38 @@
+{
+	"name": "project-joan",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"autoprefixer": "^10.4.16",
+		"carbon-components-svelte": "^0.81.0",
+		"carbon-icons-svelte": "^12.3.0",
+		"carbon-pictograms-svelte": "^12.8.0",
+		"carbon-preprocess-svelte": "^0.10.0",
+		"postcss": "^8.4.31",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.10.1",
+		"svelte": "^4.0.5",
+		"svelte-check": "^3.4.3",
+		"tailwindcss": "^3.3.3",
+		"typescript": "^5.0.0",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"firebase": "^10.5.0",
+		"html2pdf.js": "^0.10.1"
+	}
+}
